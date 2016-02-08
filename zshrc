@@ -1,6 +1,5 @@
-
-#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+export PATH=$PATH:/Applications/MAMP/Library/bin
 
 source '/usr/local/share/chruby/chruby.sh' #for chruby for auto switching
 source '/usr/local/share/chruby/auto.sh' #for chruby for auto switching

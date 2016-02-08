@@ -195,7 +195,7 @@ nnoremap <leader>h <C-w>s<C-w>j
 nnoremap <leader>a :Ack 
 "resize panel
 nnoremap <leader>r :resize 10
-nnoremap <leader>rv :vertical resize 25
+nnoremap <leader>vr :vertical resize 25
 "create anothe panel
 nnoremap <leader>ss :split
 nnoremap <leader>vss :vsplit
@@ -217,6 +217,8 @@ if executable('ag')
 endif
 
 let g:ackprg = 'ag -i --nogroup --nocolor --column --ignore-dir log --ignore-dir versions'
+
+nnoremap <leader>find :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 nnoremap <leader>n :NERDTreeToggle<CR>
 
