@@ -14,3 +14,5 @@
 	cm = commit -m 
 	cob = checkout -b 
 	co = checkout 
+	unchange = checkout --
+	mup = !git checkout master && git pull && git checkout -

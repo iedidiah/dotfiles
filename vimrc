@@ -14,6 +14,7 @@ call vundle#rc()
 
 "Let Vundle manage Vundle
 "required
+"run ':PluginInstall' to install all plugins
 Bundle 'gmarik/vundle'
 
 "my bundles here:
