@@ -11,8 +11,9 @@
 	glog = log -E -i --grep
 	unstage = reset HEAD --
 	uncommit = reset --soft HEAD^
-	cm = commit -m 
-	cob = checkout -b 
+        browse = !hub browse
 	co = checkout 
 	unchange = checkout --
 	mup = !git checkout master && git pull && git checkout -
+[core]
+	editor = /usr/bin/vim

@@ -89,9 +89,8 @@ set pastetoggle=<leader>p
 " Customizations
 set nocompatible
 set showmatch
-set ruler "show cursor position all the time
 set relativenumber
-"set number
+set ruler "show cursor position all the time
 set showcmd "display incomplete commands
 set autowrite " hopefully this will save buffers when I switch out of them
 set laststatus=2 " always show status line
@@ -155,7 +154,7 @@ set gdefault
 set bg=light
 
 "highlight current line
-colorscheme desert
+colorscheme desert "desert, pablo
 highlight NonText guibg=#060606
 
 set cursorline
